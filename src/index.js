@@ -1,4 +1,4 @@
-const accessToken = '01e8d52b07eddb1c34109ab5b9153bb4000e14d1'
+const accessToken = 'YOUR_GITHUB_PERSONAL_ACCESS_TOKEN_GOES_HERE'
 const baseUrl = 'https://api.github.com/user/repos'
 
 // Let's build a GitHub clone
