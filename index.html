@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Playground - JavaScript 101</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/main.css">
+  </head>
+  <body>
+    <div class="page--wrapper container mt-5">
+      <h1 class="text-center"> GitHub Clone </h1>
+      <div class="form--wrapper d-flex justify-content-center">
+        <div class="create--box container">
+          <h3 class="text-center"> Create Repo </h3>
+          <form id="create-repo" class="d-flex flex-column mx-5">
+            <input type="text" placeholder="Add a repo name" name="repo-name" class="form-control" id="repo-name">
+            <input type="submit" id="repo-btn" class="btn btn-info mt-2">
+          </form>
+        </div>
+      </div>
+
+      <div id="repos" class="container">
+
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
